@@ -1,0 +1,1 @@
+D:\Fuentes\Cursos\edX\XAML - Microsoft\Homework1\Homework1\RestaurantManager.UniversalWindows.csproj;x86
