@@ -20,9 +20,14 @@
             <RowDefinition Height="0.1*" />
             <RowDefinition Height="0.1*" />
         </Grid.RowDefinitions>
+        <AppBar Grid.Column="0" Grid.ColumnSpan="3" Background="#FF292929" Foreground="White">
+            <AppBarButton Label="Home" Icon="Home" Click="Home_Click" Foreground="White"/>
+        </AppBar>
         <TextBlock Grid.Row="1" Grid.Column="1" Foreground="White" Text="Special Requests:" />
         <TextBlock Grid.Row="1" Grid.Column="2" Foreground="White" Text="Order Items:" />
-        <TextBlock Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Text="**Add To Order**" />
-        <TextBlock Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Text="**Submit Order**" />
+        <ListView Grid.Column="0" Grid.Row="1" Grid.RowSpan="3" Margin="10"/>
+        <ListView Grid.Column="2" Grid.Row="2" Grid.RowSpan="2" Margin="10"/>
+        <Button Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Content="Add To Order" BorderBrush="Gainsboro" Background="#FF3E3E3E"/>
+        <Button Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" Content="Submit Order" BorderBrush="Gainsboro" Background="#FF3E3E3E"/>
     </Grid>
 </Page>

@@ -12,6 +12,10 @@
             <RowDefinition Height="0.9*" />
             <RowDefinition Height="0.1*" />
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Text="**Clear All Orders**" Foreground="White" />
+        <AppBar Background="#FF292929" Foreground="White">
+            <AppBarButton Label="Home" Icon="Home" Click="Home_Click" Foreground="White"/>
+        </AppBar>
+        <GridView Grid.Row="0" Margin="10"></GridView>
+        <Button Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Clear All Orders" Foreground="White" BorderBrush="Gainsboro" Background="#FF3E3E3E" />
     </Grid>
 </Page>

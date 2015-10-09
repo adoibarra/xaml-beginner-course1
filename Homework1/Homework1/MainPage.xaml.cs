@@ -26,5 +26,18 @@ namespace Homework1
         {
             this.InitializeComponent();
         }
+
+        private void Order_Click (object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ExpeditePage));
+        }
+        private void Submit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OrderPage));
+        }
+
     }
+
+    
+
 }
